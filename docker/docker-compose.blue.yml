@@ -1,0 +1,7 @@
+# Use this override while deploying blue (CI will include it when starting new version)
+services:
+  frontend_blue:
+    image: stefanprodan/podinfo:6.0.0
+
+  backend_blue:
+    image: stefanprodan/podinfo:6.0.0

@@ -1,0 +1,8 @@
+upstream frontend_upstream {
+    # replace with container hostnames and ports; deploy script writes these lines
+    # e.g. server frontend_blue:9898;
+}
+
+upstream backend_upstream {
+    # e.g. server backend_blue:9898;
+}

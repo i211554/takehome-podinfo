@@ -1,0 +1,20 @@
+{
+  "id": null,
+  "uid": "podinfo-example",
+  "title": "Podinfo Overview",
+  "tags": [ "podinfo" ],
+  "timezone": "browser",
+  "panels": [
+    {
+      "type": "text",
+      "title": "Notes",
+      "gridPos": { "x": 0, "y": 0, "w": 24, "h": 3 },
+      "options": {
+        "content": "Podinfo dashboards will appear here once configured.",
+        "mode": "markdown"
+      }
+    }
+  ],
+  "schemaVersion": 30,
+  "version": 1
+}

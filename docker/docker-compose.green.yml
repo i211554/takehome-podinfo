@@ -1,0 +1,7 @@
+# Use this override while deploying green (CI will include it when starting new version)
+services:
+  frontend_green:
+    image: stefanprodan/podinfo:6.0.0
+
+  backend_green:
+    image: stefanprodan/podinfo:6.0.0
